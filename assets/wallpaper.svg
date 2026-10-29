@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- treliça diagonal em linha fina dourada: textura discreta, sem desenhos -->
+  <path d="M0 24L24 0L48 24L24 48Z" fill="none" stroke="#e8b23a" stroke-opacity=".055" stroke-width=".8"/>
+  <circle cx="24" cy="24" r=".9" fill="#e8b23a" fill-opacity=".12"/>
+</svg>
