@@ -15,7 +15,7 @@ No topo do `<script>` do `index.html`, edite o `CONFIG`:
 | `ENDPOINT` | URL `/exec` do Apps Script (passo 2). Vazio = só loga no console |
 | `GRUPO` | Link de convite do grupo do WhatsApp |
 | `NOME_GRUPO`, `ANFITRIAO`, `MARCA`, `SIGLA` | Textos da página |
-| `AVATAR`, `LOGO` | Caminho das imagens (ex.: `assets/avatar.webp`). Sem imagem, aparecem as iniciais / nome da marca |
+| `AVATAR` | Foto de perfil (ex.: `assets/avatar.png`). Sem imagem, aparecem as iniciais |
 | `PIXEL_ID` | ID do Meta Pixel. Eventos: `PageView`, `StartQuiz`, `Lead`, `CompleteRegistration`, `ClickEntrarGrupo` |
 
 O avatar fica melhor com uma foto **sem fundo** (PNG/WebP transparente), recortada do peito pra cima.
