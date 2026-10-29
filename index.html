@@ -66,6 +66,9 @@ a{color:inherit}
 .who{min-width:0;flex:1;padding-left:6px}
 .who b{display:flex;align-items:center;gap:4px;font-size:17px;font-weight:500;line-height:1.2;white-space:nowrap}
 .who b svg{width:16px;height:16px;flex:none}
+#hostName{min-width:0;overflow:hidden;text-overflow:ellipsis}
+/* celulares estreitos: some o ícone de vídeo e os outros ficam compactos, pra caber o nome inteiro */
+@media (max-width:400px){.acts svg{width:34px;height:34px;padding:7px}.acts svg:first-child{display:none}.who b{font-size:16px}.head{gap:4px}}
 .status{display:block;margin-top:1px;font-size:13px;line-height:1.2;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .acts{flex:none;display:flex;align-items:center;color:var(--ash)}
 .acts svg{width:40px;height:40px;padding:9px}
